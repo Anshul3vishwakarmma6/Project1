@@ -9,19 +9,19 @@ But for custom VPC you need to configure everything end to end in detail and the
 
 VPC is private and isolated.Services deployed into the VPC can communicate with each other, but it will not be able to communicate with anything outside VPC until you explicitly configured.
 
-1.	# Create Custom VPC
+# 1. Create Custom VPC
 
 ![2024-02-25 22_42_38-Greenshot](https://github.com/Anshul3vishwakarmma6/Aws/assets/159995520/1340fe43-47f2-4916-80db-1e90c4102056)
 
 ![2024-02-25 22_42_56-Greenshot](https://github.com/Anshul3vishwakarmma6/Aws/assets/159995520/37b29512-206b-4e3e-a317-1f4587b3846b)
 
 
-2.	# Create Subnets inside custom VPC
+# 2. Create Subnets inside custom VPC
 
 ![2024-02-25 22_43_01-Greenshot](https://github.com/Anshul3vishwakarmma6/Aws/assets/159995520/629d4df4-1958-40cc-9520-fa4eb04d74a7)
 
 
-3.	# Configuring one tier in VPC to be Public
+# 3. Configuring one tier in VPC to be Public
 ![2024-02-25 22_43_14-Greenshot](https://github.com/Anshul3vishwakarmma6/Aws/assets/159995520/7faffcbd-1104-4a03-aa8d-7a72ab96f778)
 
 ![2024-02-25 22_43_21-Greenshot](https://github.com/Anshul3vishwakarmma6/Aws/assets/159995520/78862f89-6a37-4dae-9322-3047d8765ffe)
@@ -40,7 +40,7 @@ VPC is private and isolated.Services deployed into the VPC can communicate with 
 
 
 
-4.	# Create NAT Gateway
+# 4. Create NAT Gateway
 
 ![2024-02-25 22_51_18-Greenshot](https://github.com/Anshul3vishwakarmma6/Aws/assets/159995520/118bf32b-9a71-4515-a44f-d5623e1f3227)
 
@@ -48,7 +48,7 @@ VPC is private and isolated.Services deployed into the VPC can communicate with 
 
 ![2024-02-25 22_54_39-Greenshot](https://github.com/Anshul3vishwakarmma6/Aws/assets/159995520/3c9e8352-8ad2-4b31-9aeb-b4aa73a3e5e5)
 
-5.	# Create Bastion Host and Clean up 
+# 5. Create Bastion Host and Clean up 
 
 ![2024-02-25 22_54_55-Greenshot](https://github.com/Anshul3vishwakarmma6/Aws/assets/159995520/1d0c1bd3-dd3c-4820-9eb7-1dda79fd8d27)
 
